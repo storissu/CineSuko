@@ -14,7 +14,7 @@ namespace CineSuko
         string email;
         string username;
         string password;
-
+        //selam 
         public Admin(int admin_id, string firstname, string lastname, string email, string username,
             string password)
         {
