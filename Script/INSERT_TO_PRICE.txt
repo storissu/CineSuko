@@ -1,0 +1,10 @@
+USE [CINEMA]
+GO
+
+INSERT INTO [dbo].[price]
+           ([student_ticket]
+           ,[regular_ticket])
+     VALUES
+           ('12.67','17.25')
+GO
+

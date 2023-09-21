@@ -1,0 +1,19 @@
+USE [CINEMA]
+GO
+
+/****** Object:  Table [dbo].[seatdate]    Script Date: 15.09.2023 15:35:14 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[seatdate](
+	[gender] [varchar](50) NOT NULL,
+	[seat] [varchar](50) NOT NULL,
+	[date] [varchar](50) NOT NULL,
+	[hall] [varchar](50) NOT NULL
+) ON [PRIMARY]
+GO
+
+

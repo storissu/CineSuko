@@ -1,0 +1,50 @@
+USE [CINEMA]
+GO
+
+INSERT INTO [dbo].[customers]
+           ([first_name]
+           ,[last_name]
+           ,[birthdate]
+           ,[phone]
+           ,[email]
+           ,[username]
+           ,[password]
+           ,[gender]
+           ,[is_student])
+     VALUES
+           ('Ally','Woodsen','21.12.2002','5050450349','oykusuko@gmail.com','ali','123','f','true')
+GO
+
+USE [CINEMA]
+GO
+
+INSERT INTO [dbo].[customers]
+           ([first_name]
+           ,[last_name]
+           ,[birthdate]
+           ,[phone]
+           ,[email]
+           ,[username]
+           ,[password]
+           ,[gender]
+           ,[is_student])
+     VALUES
+           ('Rick','Grimes','21.12.1974','5050450379','oykusuko@gmail.com','rick','123','m','false')
+GO
+
+USE [CINEMA]
+GO
+
+INSERT INTO [dbo].[customers]
+           ([first_name]
+           ,[last_name]
+           ,[birthdate]
+           ,[phone]
+           ,[email]
+           ,[username]
+           ,[password]
+           ,[gender]
+           ,[is_student])
+     VALUES
+           ('Negan','Smith','21.12.1967','5050454349','oykusuko@gmail.com','negan','111','m','false')
+GO

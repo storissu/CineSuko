@@ -1,0 +1,28 @@
+USE [CINEMA]
+GO
+
+/****** Object:  Table [dbo].[movies]    Script Date: 15.09.2023 15:33:29 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[movies](
+	[movie_id] [int] IDENTITY(1,1) NOT NULL,
+	[name] [varchar](50) NOT NULL,
+	[description] [varchar](50) NOT NULL,
+	[release_date] [varchar](50) NOT NULL,
+	[director] [varchar](50) NOT NULL,
+	[movie_type] [varchar](50) NOT NULL,
+	[rate] [float] NOT NULL,
+	[poster] [varchar](50) NOT NULL,
+	[hal_no] [varchar](50) NOT NULL,
+ CONSTRAINT [PK_movies] PRIMARY KEY CLUSTERED 
+(
+	[movie_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+

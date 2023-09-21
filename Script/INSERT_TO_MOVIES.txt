@@ -1,0 +1,106 @@
+USE [CINEMA]
+GO
+
+INSERT INTO [dbo].[movies]
+           ([name]
+           ,[description]
+           ,[release_date]
+           ,[director]
+           ,[movie_type]
+           ,[rate]
+           ,[poster]
+           ,[hal_no])
+     VALUES
+           ('Interstellar','Space Travel','2011','Christopher Nolan','Sci-Fi',8.5,'interstellar.jpg','6')
+GO
+
+
+
+USE [CINEMA]
+GO
+
+INSERT INTO [dbo].[movies]
+           ([name]
+           ,[description]
+           ,[release_date]
+           ,[director]
+           ,[movie_type]
+           ,[rate]
+           ,[poster]
+           ,[hal_no])
+     VALUES
+           ('Nerve','Reality Game','2016','Alex Mich','Action',6.5,'nerve.jpg','5')
+GO
+
+
+
+USE [CINEMA]
+GO
+
+INSERT INTO [dbo].[movies]
+           ([name]
+           ,[description]
+           ,[release_date]
+           ,[director]
+           ,[movie_type]
+           ,[rate]
+           ,[poster]
+           ,[hal_no])
+     VALUES
+           ('Oppenheimer','Atom Bomb','2023','Christopher Nolan','Biography',7.5,'oppenheimer.jpg','4')
+GO
+
+
+
+USE [CINEMA]
+GO
+
+INSERT INTO [dbo].[movies]
+           ([name]
+           ,[description]
+           ,[release_date]
+           ,[director]
+           ,[movie_type]
+           ,[rate]
+           ,[poster]
+           ,[hal_no])
+     VALUES
+           ('Spiderman','MCU','2021','John Daily','Action',7.1,'spiderman.jpg','3')
+GO
+
+
+
+USE [CINEMA]
+GO
+
+INSERT INTO [dbo].[movies]
+           ([name]
+           ,[description]
+           ,[release_date]
+           ,[director]
+           ,[movie_type]
+           ,[rate]
+           ,[poster]
+           ,[hal_no])
+     VALUES
+           ('Good Will Hunting','Undiscovered Mind','1997','Megan Ty','Drama',8.5,'goodwillhunting.jpg','2')
+GO
+
+
+
+USE [CINEMA]
+GO
+
+INSERT INTO [dbo].[movies]
+           ([name]
+           ,[description]
+           ,[release_date]
+           ,[director]
+           ,[movie_type]
+           ,[rate]
+           ,[poster]
+           ,[hal_no])
+     VALUES
+           ('Twilight','Vampire/Werewolf','2008','Bella Segn','Fantasy',5.5,'twilight.jpg','1')
+GO
+

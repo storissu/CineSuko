@@ -1,0 +1,6 @@
+1;Interstellar;Space Travel;2011; Cristopher Nolan;Sci-Fi;8,1;interstellar.jpg;6
+8;Oppenheimer 2;Atomic Bomb;2023; Biography;Oppenheimer 2;73;db.jpg;5
+9;Spiderman;MCU;2021; Jeffrey Ford;Action;7,1;spiderman.jpg;3
+10;Twilight;Vampires/Werewolves;2008; David Slade;Fantasy;5,9;twilight.jpg;2
+11;Good Will Hunting;Undiscovered Mind;1997; Gus Van Sant;Drama;7,9;goodwillhunting.jpg;1
+18;Nerve;Reality Game;2016; Gus Van Sant;Action;7,9;nerve.jpg;1

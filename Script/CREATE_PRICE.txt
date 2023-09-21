@@ -1,0 +1,17 @@
+USE [CINEMA]
+GO
+
+/****** Object:  Table [dbo].[price]    Script Date: 15.09.2023 15:34:32 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[price](
+	[student_ticket] [varchar](50) NOT NULL,
+	[regular_ticket] [varchar](50) NOT NULL
+) ON [PRIMARY]
+GO
+
+
